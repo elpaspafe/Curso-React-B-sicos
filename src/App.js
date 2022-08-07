@@ -1,4 +1,6 @@
+import React from "react";
 import logo from './logo.svg';
+import Componente from "./components/Componente";
 import './App.css';
 
 function App() {
@@ -18,6 +20,11 @@ function App() {
           Learn React
         </a>
       </header>
+      <section>
+        <Componente msg="Hola, soy un Componente Funcional expresado desde una Prop."/>
+        <br /><br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> 
+
+      </section>
     </div>
   );
 }
